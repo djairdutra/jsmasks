@@ -1,3 +1,14 @@
+/*
+Use as classes abaixo para aplicar as máscaras ao input do tipo text:
+
+.cpfmask  = 999.999.999-99      (+ validade)
+.cnpjmask = 99.999.999/9999-99  (+ validate)
+.cepmask  = 99.999-99
+.telmask  = (99) 999999999
+.datemask = 99/99/9999          (+ validate)
+.horamask = 99:99               (+ validate)
+*/
+
 const cpfmask = document.querySelector(".cpfmask");
 const cnpjmask = document.querySelector(".cnpjmask");
 const cepmask = document.querySelector(".cepmask");
