@@ -59,7 +59,7 @@ if(cepmask){
 }
 
 if(telmask){
-    telmask.setAttribute("maxlength",11);
+    telmask.setAttribute("maxlength",14);
     telmask.addEventListener('keyup', (event) => {
         let valor = event.target.value;
         valor = valor.replace(/\D/g, '');
